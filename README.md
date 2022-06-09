@@ -12,7 +12,7 @@
 
 ## Imagens Demonstrativas
 
-<img src="/img/pag-home-git.png" alt="home page" /></br>
+<img src="../public/img/pag-home-git.png" alt="home page" /></br>
 <img src="/img/pag-post-git.png" alt="post page" />
 
 ## 🛠️ Abrir e rodar o projeto
