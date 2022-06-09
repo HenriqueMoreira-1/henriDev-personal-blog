@@ -1,0 +1,71 @@
+@import "../../breakpoints/breakpoints.scss";
+.asideContainer {
+  width: 100%;
+  max-width: 321px;
+  margin-left: 10rem;
+  position: absolute;
+  top: 8rem;
+  right: 0;
+
+  @include media("<=1230px") {
+    display: none;
+  }
+}
+
+.asideContent {
+  width: 271px;
+  margin-right: 1.5rem;
+}
+
+.searchContainer {
+  input {
+    width: 271px;
+    padding: 10px;
+    border: none;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: aqua;
+    color: white;
+  }
+}
+
+.asideADS {
+  margin-top: 3rem;
+  width: 271px;
+
+  img {
+    width: 271px;
+  }
+
+  :nth-child(3) {
+    height: 140px;
+  }
+  :nth-child(4) {
+    height: 202px;
+    margin-bottom: 5rem;
+  }
+}
+
+.asideRecentPosts {
+  h3 {
+    font-size: 26px;
+    font-weight: normal;
+  }
+  .borderBottom {
+    width: 180px;
+    border: 1px solid #000;
+  }
+  ul {
+    li {
+      margin-top: 1.5rem;
+      list-style: none;
+      cursor: pointer;
+    }
+  }
+}
